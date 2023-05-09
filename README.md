@@ -48,7 +48,4 @@ Surge la necesidad de crear un medio web confiable seguro y  de calidad al momen
 
 ### INTEGRANTES
 
-    1.Oscar churque 
-    2.Julian Gomez  
-    3.Yurany Novoa 
-    4.Felipe Ruiz
+    1.Julian Gomez  
