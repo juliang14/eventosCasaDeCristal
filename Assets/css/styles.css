@@ -1,0 +1,318 @@
+header h1 {
+	margin: auto;
+	text-align: center;
+}
+#botones_modal{
+	background: yellow;
+	margin: auto;
+	padding: 10% 20%;
+	text-align: center;
+}
+nav a{
+	color: white;
+}
+.code_off{
+	display: none;
+}
+#crearPopup{
+	width: 150px;
+	height: 50px;
+}
+.color_red{
+	color: red;
+}
+.color_blue{
+	color: blue;
+}
+.color_orange{
+	color: orange;
+}
+i:hover, .btn:hover{
+	cursor: pointer;
+}
+
+/* Estilos del carrusel */
+#sliderbar{
+	width: 70%;
+}
+#sliderbar img{
+	width: 100%;
+	height:450px;
+}
+/* Fin estilos del carrusel*/
+
+/* Estilos del titulo*/
+header h1 {
+  font-weight: bold;
+  font-size: 68px;
+  font-family: "Arial";
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color: #FFF;
+  text-align: center;
+}
+/* Fin estilos del titulo */
+/* Inicio tabla usuarios*/
+#section_table{
+	width: 70%; 
+	margin: 5% auto;
+}
+#section_table h2{
+	text-align: center;
+}
+#tabla_clientes{
+	width:100% ;
+	border-color: #808080;
+	border-radius: 10px;
+	border: 5px solid gray; 
+	padding: 5px;
+}
+#tabla_clientes th,
+#tabla_clientes td{
+	text-align: center;
+}
+#tabla_clientes_filter input{
+	border-radius: 20px;
+    text-align: center;
+}
+
+/* Fin tabla usuarios*/
+/* Inicio botones crud*/
+#botones_CRUD{
+	margin: 2% auto;
+}
+/* Fin botones crud*/
+/* Inicio estilos formularios*/
+#section_forms{
+	margin: 5% auto;
+	padding: 2% 5% 2% 5%;
+	background: linear-gradient(to right, rgb(245, 240, 240), rgb(249 202 202));
+    border: 2px solid;
+    border-radius: 20px;
+}
+#tituloCrearUsuario{
+	margin-bottom: 6%;
+}
+#botonCrearUsuario,
+#botonNoCrearUsuario{
+	margin-top: 5%;
+}
+#contenedorFormularioVerUsuario input{
+	background: #fff;
+}
+#contenedorFormularioVerUsuario .form-control:disabled{
+	cursor: auto;
+}
+/* Fin estilos formularios*/
+/*------------------------------------------------------------------------------------------------*/
+/* INICIO ESTILOS ACERDA DE */
+.acercaDeNosotrosInfo{
+	margin-top: 1%;
+}
+#todoElContenido{
+	width: 100%;
+    margin: 0;
+}
+#video-acercadenosotros{
+	text-align: center;
+}
+.imagenes{
+	width: 200px;
+	height: 200px;
+}
+
+/* FIN ESTILOS ACERCA DE*/
+
+/* INICIO ESTILOS CONTACTO */
+.contactoInfo{
+	margin-top: 1%;
+}
+.contactoImg{
+	text-align: right;
+}
+#mapa{
+	width: 60%;
+    height: 500px;
+    margin: auto;
+}
+#mapa-contact{
+	height: 200px;
+}
+
+/* FIN ESTILOS CONTACTO*/
+/* INICIO ESTILOS BIENVENIDOS*/
+#pag{
+	padding-bottom: 5%;
+}
+.bienvenidos{
+	border: 2px solid black;
+	padding: 5% 10%;
+	margin-top: 5% ;
+	margin-left: 10% ;
+	margin-right: 10% ;
+}
+.bienvenidos p{
+	font-size: 18px;
+}
+.bienvenidos h1{
+	text-align: center;
+}
+.pedido{
+	border: 2px solid black;
+	padding: 2% 5%;
+}
+
+.pedidos, .pedido-info{
+	display: inline-flex;
+}
+.pedido-info{
+	margin-top: 5%;
+}
+.detalle, .right{
+	text-align: right;
+} 
+.detalle a{
+	color: rgba(17, 77, 168, 1)!important;
+	text-decoration: underline;
+	margin: auto 0;
+}
+.Entregado{
+	color: green;
+	display:inline-flex;
+}
+.Pendiente{
+	color: yellow;
+	display:inline-flex;
+}
+.Cancelado{
+	color: red;
+	display:inline-flex;
+}
+.Entregado img,
+.Pendiente img,
+.Cancelado img{
+	margin-right: 5%;
+}
+.Entregado p,
+.Pendiente p,
+.Cancelado p{
+	margin: auto 0;
+	font-size: 21px;
+}
+
+#boton-inicio{
+	background: white;
+	border-color: blue;
+	color: blue;
+	width: 100%;
+}
+#boton-inicio:hover{
+	background: blue;
+	border-color: blue;
+	color: white;
+}
+
+#boton-de-inicio{
+	margin-top: 5%;
+}
+/* FIN ESTILOS BIENVENIDOS*/
+
+/* INICIO ESTILOS QUIENES SOMOS*/
+
+.quienesSomosInfo ul {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+.quienesSomosInfo ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.quienesSomosInfo ul li img{
+	background-size: cover;
+	border-radius: 5px;
+	float: left;
+	width: 200px;
+	height: 200px;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	
+}
+.quienesSomosInfo ul li img:hover{
+	opacity: 1;
+	border-radius: 50px;
+	box-shadow: 0px 0px 20px white;
+	border-radius:50%;
+	box-shadow: 0px 0px 10px 10px #DE96F3;
+	-webkit-box-shadow: 0px 0px 10px 10px #F8AEFB;
+	transform: rotate(360deg);
+	-moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    -webkit-transform:rotate(360deg);
+ }
+ .quienesSomosInfo p {
+ 	text-align: center;
+ 	background: #FCDBFD;
+ 	font: small-caps 100%/200% serif;
+ 	border-radius: 10px;
+ }
+ #eventos{
+ 	text-align: center;
+ }
+ #eventos li{
+ 	margin:3% 5%;
+ }
+
+#contenidoEventos{
+	margin-top: 3%;
+}
+/* FIN ESTILOS QUIENES SOMOS*/
+
+
+/*-------------- RESPONSIVE --------------*/
+
+@media screen and (min-width: 200px) and (max-width: 575px){
+	#sliderbar img{
+		width: 100%;
+		height:200px;
+	}
+	
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+	#sliderbar img{
+		width: 100%;
+		height:200px;
+	}	
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#sliderbar img{
+		width: 100%;
+		height:200px;
+	}	
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#sliderbar img{
+		width: 100%;
+		height:300px;
+	}
+}
+@media screen and (min-width: 1200px) {
+
+
+}

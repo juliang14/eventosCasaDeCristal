@@ -1,0 +1,108 @@
+#video-acercadenosotros{
+	text-align: center;
+}
+.centrar{
+	text-align: center;
+}
+.justify{
+	text-align: justify;
+}
+.margin{
+	margin: 5% 0;
+}
+iframe{
+	max-width: 100%;
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+h3{
+	text-align: center;
+}
+#text{
+	margin: auto;
+	width: 70%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+#todoElContenido{
+	margin-top: 1%;
+}
+#imagenes{
+	width: 90%;
+}
+
+/*-------------- RESPONSIVE --------------*/
+
+@media screen and (min-width: 300px) and (max-width: 575px){
+
+	#todoElContenido{
+		margin-top: 50%;
+	}
+
+	iframe{
+		margin: 10% 0;
+	}
+
+	#imagenes{
+		width: 50%;
+		margin-bottom: 10%;
+	}
+	.margin{
+		text-align: center;
+	}
+	.justify{
+		margin: 0 10%;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+	#todoElContenido{
+		margin-top: 5%;
+	}
+		iframe{
+		margin: 10% 0;
+	}
+
+	#imagenes{
+		width: 50%;
+		margin-bottom: 10%;
+	}
+	.margin{
+		text-align: center;
+	}
+	.justify{
+		margin: 0 10%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#todoElContenido{
+		margin-top: 5%;
+	}
+		iframe{
+		margin: 10% 0;
+	}
+
+	#imagenes{
+		width: 50%;
+		margin-bottom: 10%;
+	}
+	.margin{
+		text-align: center;
+	}
+	.justify{
+		margin: 0 10%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#todoElContenido{
+		margin-top: 5%;
+	}
+	
+
+}
+@media screen and (min-width: 1200px) {
+	#todoElContenido{
+		margin-top: 5%;
+	}
+
+}

@@ -1,0 +1,76 @@
+h2{
+	text-align: center;
+	color: #2E67D0FF;
+}
+main{
+	background: #B5B5B5FF;
+	width: 80%;
+	margin: auto;
+	margin-top: 3%;
+	padding: 3% 0;
+}
+#pag{
+	padding-bottom: 5%;
+}
+#azul{
+	background: #1D31E1FF;
+	border-color: #1D31E1FF;
+}
+#azul:before{
+	content: 'Total: ';
+}
+#rojo:before{
+	content: url('../img/borrar_.png');
+	margin-right: 3%;
+}
+#rojo{
+	background: red;
+	border-color: red;
+}
+#verde{
+	background: green;
+	border-color: green;
+	width: 50%;
+}
+#verde:hover{
+	background: #FFF;
+	border-color: green;
+	color: green;
+	width: 50%;
+}
+.linea{
+	width: 70%;
+	margin: auto;
+	border-top: 10px solid gray;
+}
+#botones-carrito{
+	margin: 5% 0;
+}
+
+#total-carrito{
+	text-align: right;
+}
+.centrar{
+	text-align: center;
+}
+.btn{
+	width: 80%;
+}
+table{
+	margin: auto;
+	border: 1px solid black;
+}
+thead{
+	background: gray;
+}
+tbody{
+	background: white;
+}
+td,th{
+	padding: 10px;
+	border-left: 1px solid black;
+}
+th{
+	text-align: center!important;
+}
+

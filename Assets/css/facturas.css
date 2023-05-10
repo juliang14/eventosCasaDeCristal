@@ -1,0 +1,110 @@
+main{
+	margin-top: 5% ;
+	margin-left: 1% ;
+	margin-right: 1% ;
+}
+main h1{
+	text-align: center;
+}
+#pag{
+	padding-bottom: 2%;
+}
+
+.cajon{
+	border-top: solid 10px gray;
+}
+#parte{
+ 	margin-top: 2%;
+ 	padding: 0; 
+}
+#parte > .row > div{
+	display: inline-flex;
+}
+.medio{
+	width: 55%;
+}
+.centrar{
+	text-align: center;
+	margin: auto 0;
+}
+#det-factura{
+	text-align: center;
+	background: #FFB27FFF;
+	padding: 2%;
+}
+#det-factura input{
+	width: 100%;	
+}
+
+#verde{
+	background: green;
+	border-color: green;
+	width: 100%;
+}
+#verde:hover{
+	background: #FFF;
+	border-color: green;
+	color: green;
+	width: 100%;
+}
+#azul{
+	background: #1D31E1FF;
+	border-color: #1D31E1FF;
+	width: 100%;
+}
+
+.seccionVerFactura{
+		padding: 5%;
+}
+.contenedorVerFactura{
+	background: pink;
+}
+.logo_factura{
+	width: 200px;
+    border-radius: 35px;
+}
+#columna-2 input{
+	width: 100%;
+}
+.body-factura,
+.body-datos-factura{
+	background: #fff;
+	border-radius: 20px;
+}
+#columna-1 i{
+	font-size: 25px;
+}
+#tabla_factura{
+	margin: 0;
+	width: 100%;
+}
+.spacio-vacio{
+	padding: 5%;
+}
+.fin-body-factura{
+	border-top: 2px solid;
+}
+#body_tabla_factura tr{
+	border-bottom: 2px dotted;
+}
+.boton_desabilitado{
+	background: white;
+    color: black;
+	border: 0;
+	border-radius: 20px;
+	padding-left: 20px;
+}
+.estado-pedido{
+	font-size: 25px;
+}
+#actualizar_Estado_Pedido{
+	border: 1px solid pink;
+}
+.espacioRosado{
+	background: pink;
+}
+.text-muted{
+	list-style: none;
+	width: 70%;
+    margin: auto;
+}

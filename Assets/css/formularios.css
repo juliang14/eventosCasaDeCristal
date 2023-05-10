@@ -1,0 +1,329 @@
+main{
+	overflow: auto;
+	margin: auto;
+	width: 70%;
+}
+#formulario_registrousuario,
+#tyc-modal, #registro-exitoso{
+	border: 2px solid black;
+	padding: 5% 10%;
+}
+#registro-exitoso{
+	margin-bottom: 5%;
+	padding: 5%;
+	background: #E2E2E2FF;
+}
+#login-usuario{
+	border: 2px solid black;
+	padding: 1%;
+	margin-bottom: 5%;
+}
+#aceptar_TyC:hover{
+	cursor: pointer;
+}
+
+#tyc-modal{
+	height: 100%;
+}
+#formulario_registrousuario input[type='text'],
+#formulario_registrousuario input[type='number'],
+#formulario_registrousuario input[type='email']{
+	width: 100%;
+}
+
+.centrar{
+	text-align: center;
+}
+
+#typesDoc > div > div{
+	margin-right: 3%;
+}
+#parte-6,#btn-cancelar input[type='text'],
+#btn-registrarse input[type='text']{
+	text-align: center;
+}
+#parte-6 > div > a{
+	color: #4269BCFF!important;
+}
+#btn-registrarse{
+	text-align: center;
+}
+#btn-cancelar input[type='text'],
+#btn-Registrarse input[type='text']{
+	width: 80%!important;
+}
+#typesDoc input[type=radio] {
+    width: 40px;
+    height: 25px;
+}
+#btn-registrarse input[type='submit']{
+	background: white;
+	color: green;
+	border: 2px solid green;
+	width: 250px;
+	margin-top: 5%;
+	cursor: pointer;
+}
+#btn-registrarse input[type='submit']:hover{
+	background: green;
+	color: white;
+	border: 2px solid green;
+}
+#btn-cancelar input[type='text']{
+	background: white;
+	color: red;
+	border: 2px solid red;
+	cursor: pointer;
+}
+#btn-cancelar input[type='text']:hover{
+	background: red;
+	color: white;
+	border: 2px solid red;
+}
+h3{
+	text-align: center;
+}
+#parte-6 label,#cerrar{
+	cursor: pointer;
+}
+#tyc{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #000000e8;
+}
+
+
+.fix{
+	width: 100%;
+	height: 100%;
+}
+.contenido-modal{
+	background: white;
+	margin: 10%;
+}
+.btn-cerrar{
+	text-align: right; 
+}
+#tyc > div > #pag{
+	padding-bottom: 40px;
+}
+
+
+
+/*   TRANSACCION EXITOSA   */
+#parte-8{
+	margin-bottom: 10%;
+}
+#parte-9{
+	margin: auto;
+	width: 50%;
+}
+#img-exito{
+	text-align: right;
+}
+#text-exitoso{
+	text-align: left;
+}
+#text-exitoso h1{
+	color: #6f6fea;
+}
+#contenedor-login{
+	padding: 3% 20%;
+}
+#parte-10 input[type='text'],
+#parte-10 input[type='email'],
+#parte-10 input[type='password']
+{
+	width: 100%;
+}
+#inicio-de-sesion{
+	margin: 0;
+}
+#inicio-de-sesion h2{
+	text-align: center;
+}
+#parte-10{
+	margin: 10% 0;
+}
+#olvide{
+	text-align: center;
+}
+#olvide > a{
+	color: #3350CBFF!important;
+	text-decoration: underline;
+}
+.seccion{
+	margin-bottom: 5%;
+}
+#exitoso_img{
+	width: 90%;
+}
+
+/*********************** FORMULARIO GENIAL *******************************************/
+
+.formulario-genial{
+	width: 80%;
+	margin: 1% auto 5% auto;
+}
+.formulario-genial .paso{
+	background-color: #80808078;
+    margin: 0;
+    padding: 1%;
+}
+.formulario-genial a{
+	color: #fff!important;
+}
+.formulario-genial a:hover{
+	color: #ffc0cb!important;
+	background: transparent!important;
+	border-radius: 0;
+	cursor: pointer;
+}
+.formulario-genial .active{
+	font-size: 17px;
+	background: transparent;
+	border: 0;
+	color: #ffc0cb!important;
+}
+.formulario-genial .botonesEventos{
+	flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: center;
+	height: 0;
+}
+.formulario-genial .contenedorPaquetes,
+.cajas-paquetes{
+	border: solid black 3px; 
+	text-align: center; 
+	border-radius: 14px;
+	background: linear-gradient(to bottom, pink, white); 
+	background-color:pink;
+}
+.text-muted {
+    list-style: none;
+    width: 70%;
+    margin: auto;
+}
+.formulario-genial .contenCajaEvento{
+	background-color: #fff;
+}
+.formulario-genial .resaltar{
+	border:  3px solid #008000;
+	-webkit-box-shadow: inset 0px 0px 50px -16px #008000;
+	-moz-box-shadow: inset 0px 0px 50px -16px #008000;
+	box-shadow: inset 0px 0px 50px -16px #008000;
+}
+.formulario-genial .formularioGenialBotonBuscar{
+ width: 40%;
+}
+.formulario-genial .formularioGenialBotonBuscar:hover,
+.formulario-genial .contenedorPaquetes:hover,
+.crearPedido:hover{
+	cursor: pointer;
+}
+.formulario-genial #seleccionUsuario input,
+.formulario-genial #seleccionUsuario select{
+	width: 50%;
+	height: 35px;
+}
+.crearPedido{
+	width: 150px!important;
+}
+#valorPaqueteGenerar,
+#IdUsuarioGenerar{
+	padding: 0.1;
+    height: 0;
+    width: 0;
+}
+#seleccionFecha .form-control{
+	width: 50%;
+}
+#seleccionFecha #inputFechaInicioEvento{
+	margin-left: 50%;
+}
+.formulario-genial #seleccionUbicacion input{
+	width: 50%;
+}
+
+/*************************************************************************************/
+
+.contenedorFormularioRecuperarClave{
+	/*background-color: green;*/
+	margin: 10% 0 30% 0;
+	border: 2px solid #808080;
+}
+.contenedorFormularioRecuperarClave #email{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+/*-------------- RESPONSIVE --------------*/
+
+@media screen and (min-width: 300px) and (max-width: 575px){
+
+	#todoElContenido{
+		margin-top: 50%;
+		text-align: center;
+	}
+	#contactoImg{
+		text-align: center;
+	}
+	iframe{
+		height: 200px;
+	}
+	#contenedor-login {
+	    padding: 3% 1%;
+	}
+	.seccion{
+		margin-bottom: 15%;
+	}
+	#text-exitoso h1{
+		font-size: 15px;
+	}
+	#exitoso_img{
+		width: 40%;
+	}
+	#img-exito{
+		text-align: center;
+	}
+	#parte-9{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+	#todoElContenido{
+		margin-top: 5%;
+	}
+	iframe{
+		height: 300px;
+	}
+	.seccion{
+		margin-bottom: 10%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#todoElContenido{
+		margin-top: 5%;
+	}
+	iframe{
+		height: 400px;
+	}
+	.seccion{
+		margin-bottom: 10%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#todoElContenido{
+		margin-top: 5%;
+	}
+	
+
+}
+@media screen and (min-width: 1200px) {
+	#todoElContenido{
+		margin-top: 3%;
+	}
+
+}
