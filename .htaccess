@@ -1,0 +1,6 @@
+#activar modo escritura
+##RewriteEngine on
+
+
+##RewriteRule ^administrador/(\w+)/?$ index.php?class=administrador&method=$1
+##RewriteRule ^empleados/(\w+)/?$ index.php?class=Empleado&method=$1

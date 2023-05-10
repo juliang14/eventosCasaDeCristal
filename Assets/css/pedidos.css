@@ -1,0 +1,74 @@
+#pag{
+	padding-bottom: 5%;
+}
+main{
+	border: 2px solid black;
+	padding: 5% 10%;
+	margin-top: 5% ;
+	margin-left: 10% ;
+	margin-right: 10% ;
+}
+main p{
+	font-size: 18px;
+}
+main h1{
+	text-align: center;
+}
+.pedido{
+	border: 2px solid black;
+	padding: 2% 5%;
+}
+
+.pedidos, .pedido-info{
+	display: inline-flex;
+}
+.pedido-info{
+	margin-top: 5%;
+}
+.detalle, .right{
+	text-align: right;
+} 
+.detalle a{
+	color: rgba(17, 77, 168, 1)!important;
+	text-decoration: underline;
+	margin: auto 0;
+}
+.Entregado{
+	color: green;
+	display:inline-flex;
+}
+.Pendiente{
+	color: yellow;
+	display:inline-flex;
+}
+.Cancelado{
+	color: red;
+	display:inline-flex;
+}
+.Entregado img,
+.Pendiente img,
+.Cancelado img{
+	margin-right: 5%;
+}
+.Entregado p,
+.Pendiente p,
+.Cancelado p{
+	margin: auto 0;
+	font-size: 21px;
+}
+
+#boton-inicio{
+	background: white;
+	border-color: blue;
+	color: blue;
+	width: 100%;
+}
+#boton-inicio:hover{
+	background: blue;
+	border-color: blue;
+	color: white;
+}
+
+#boton-de-inicio{
+	margin-top: 5%;
+}

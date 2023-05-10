@@ -1,0 +1,27 @@
+@font-face{
+	font-family: 'Righteous', cursive;
+	src: url(Assets/Fonts/Righteous-Regular.ttf);
+}
+@font-face{
+	font-family: 'Berkshire Swash', cursive;
+	src: url(Assets/Fonts/BerkshireSwash-Regular.ttf);
+}
+.main-admin p{
+	font-family: 'Righteous', cursive;
+	font-size: 25px;
+}
+
+.formulario-genial .paso{
+	font-family: 'Righteous', cursive;
+	font-size: 18px;
+}
+.nombre-paquete{
+	font-family: 'Righteous', cursive;
+	font-size: 12px;
+}
+.titulo-paquetes{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 40px;
+	padding: 5% 0;
+}
+

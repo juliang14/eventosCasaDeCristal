@@ -1,0 +1,132 @@
+header, main, section{
+    background-color: #fff;
+}
+.ocultar{
+    display: none;
+}
+.pl-0{
+    padding-left: 0;
+}
+.pr-0{
+    padding-right: 0;
+}
+header{
+    border-bottom: 2px solid pink;
+}
+.form-search input{
+    border-radius: 20px 0 0 20px;
+}
+.form-search button{
+    border-radius: 0 20px 20px 0;
+}
+.color-gris{
+    color: #cccccc;
+}
+.color-gris-footer{
+    color: #0000008c;
+}
+.text-justify{
+    text-align: justify;
+}
+.container-logo img{
+    width: 50%;
+}
+.navbar-top{
+    border-radius: 0 0 0 20px;
+    background-color: #ffe0e6;
+}
+.img-icons{
+    width: 20px;
+}
+.img-banners{
+    max-height: 600px;
+}
+.nav-center{
+    margin-top: 50px;
+}
+.content-nav-center{
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: #dee2e6;
+    padding: 100px 0;
+}
+.nav-center .nav-item:hover >a{
+    color: #000;
+}
+.footer{
+    background-color: #ffe0e6;
+    padding: 50px 100px 25px 100px;
+}
+.text-copy{
+    margin-top: 70px;
+    font-weight: bold;
+}
+.ul-links-interest{
+    list-style-type: none;
+    color: #0000008c;
+    padding-left: 80px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+.column-social-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.column-social-icon i{
+    font-size: 25px;
+}
+.btn-pasajeros{
+    background-color: #ccc;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.section-flights-title{
+    padding: 80px 0;
+}
+.section-flights-image{
+    padding-bottom: 100px;
+}
+.section-contact{
+    margin: 50px 0 100px 0;
+    border: 2px solid #ccc;
+}
+.section-contact h6{
+    font-weight: bold;
+}
+.text-contact{
+    border-bottom: 2px solid #ccc;
+    padding: 20px 5px;
+}
+.content-form{
+    padding: 40px 20px;
+}
+.content-contact{
+    border-left: 2px solid #ccc;
+    padding: 40px 50px;
+}
+.text-right{
+    text-align: right;
+}
+.btn-send{
+    width: 100%;
+}
+.nav-center .nav-link.active{
+    background-color: pink;
+    border-radius: 10px 10px 0 0;
+}
+.nav-center .nav-link:hover:not(.active){
+    background-color: pink;
+    border-radius: 10px 10px 0 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .ul-links-interest {
+        padding-left: 35px;
+    }
+}

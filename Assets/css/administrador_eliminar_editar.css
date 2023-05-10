@@ -1,0 +1,160 @@
+#eliminar{
+	width: 40%; 
+	margin: 5% auto;
+	padding: 0;
+	text-align: left;
+}
+
+#eliminar2{
+	width: 60%;
+	margin: 5% auto;
+	padding: 0;
+	text-align: center; 
+}
+
+input{
+	text-align: center;
+}
+label,input{
+	width: 100%;
+}
+
+.rojo{
+	color: red!important;
+	border-color: red!important;
+	background-color: #fff;
+}
+.rojo:hover{
+	color: white!important;
+	border-color: red!important;
+	background: red;
+}
+
+.azul{
+	color: blue!important;
+	border-color: blue!important;
+	background-color: #fff;
+}
+.azul:hover{
+	color: white!important;
+	border-color: blue!important;
+	background: blue;
+}
+.verde{
+	color: green!important;
+	border-color: green!important;
+	background-color: #fff;
+}
+.verde:hover{
+	color: white!important;
+	border-color: green!important;
+	background: green;
+}
+
+.margen-abajo{
+	margin-bottom: 5%;
+}
+
+::placeholder { color: white; }
+
+.sombra{
+	box-shadow: -5px -5px 30px 5px pink, 5px 5px 30px 5px pink;
+	border: 3px solid;
+	padding: 5%;
+}
+select{
+	width: 100%;
+	text-align-last: center;
+}
+#ver-cargo:hover{
+	cursor: no-drop;
+}
+
+/* Inicio estilos formularios*/
+#section_forms{
+	width: 50%;
+	margin: 5% auto;
+	padding: 2% 5% 2% 5%;
+    background: linear-gradient(to right, rgb(245, 240, 240), pink);
+    border: 2px solid;
+    border-radius: 20px;
+}
+#tituloCrearUsuario,
+#tituloVerInventario{
+	margin-bottom: 6%;
+}
+#contenedorFormularioVerInventario input:disabled{
+	background-color: #fff!important;
+}
+#botonCrearUsuario,
+#botonNoCrearUsuario{
+	margin-top: 5%;
+}
+#contenedorFormularioVerUsuario input,
+#contenedorFormularioVerEmpleado input,
+#contenedorFormularioVerEmpleado select{
+	background: #fff;
+}
+#contenedorFormularioVerUsuario .form-control:disabled{
+	cursor: auto;
+}
+#contenedorFormularioCrearInventario .verde{
+	width: 150px;
+}
+#contenedorFormularioEditarInventario #Iva,
+#contenedorFormularioEditarInventario #Valor_total{
+	cursor: not-allowed;
+}
+
+/* Fin estilos formularios*/
+
+/* Turnos administrador */
+.boton-desplegable{
+	background-color: #ffc0cb;
+	border-radius: 10px;
+	padding: 10px;
+}
+.bordeInferior{
+	border-radius: 10px 10px 0 0;
+}
+.boton-desplegable:hover{
+	cursor: pointer;
+}
+.body-desplegable{
+	background-color: #ffc0cb;
+	border-radius: 0 0 10px 10px;
+	padding-bottom: 20px;
+}
+.section-turnos{
+	margin: 5% auto;
+}
+.body-desplegable #inputIdPedido{
+	width: 50%;
+	margin: auto;
+}
+.body-desplegable label{
+	font-size: 18px;
+}
+.body-desplegable input{
+	width: 100%;
+	border-color: #fff;
+	background-color: #fff;
+	border: 0;
+    border-radius: 10px;
+}
+.body-desplegable #mensajeError{
+	background-color: #ffc0cb;
+	border: 0;
+}
+.body-desplegable select{
+	height: 35px;
+	border-radius: 10px;
+}
+.section-turnos .verde{
+	width: 150px;
+}
+/************************/
+/*****VER TURNO*****/
+.contenedorVerTurno label{
+	font-weight: bold;
+}

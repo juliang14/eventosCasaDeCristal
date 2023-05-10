@@ -1,0 +1,28 @@
+#pag{
+	padding-bottom: 5%;
+}
+main{
+    padding: 5%;
+	background: #E2E2E2FF;
+	border: 2px solid black;
+	margin: 5% auto;
+	width: 60%;
+}
+#pago-exitoso{
+	text-align: center;
+	color: #2A49D4FF;
+}
+#parte-pago-exitoso{
+	margin-top: 10%;
+	text-align: center;
+}
+#btn-registrarse button{
+	background: white;
+	border-color: green;
+	color: green;
+}
+#btn-registrarse button:hover{
+	background: green;
+	border-color: green;
+	color: white;
+}

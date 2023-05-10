@@ -1,0 +1,274 @@
+#usuario-arriba{
+	color:#00FAFF;
+	display: inline-flex;
+}
+#usuario-arriba p{
+	margin: auto;
+}
+#usuario-arriba1{
+	display: inline-flex;
+}
+#usuario-arriba1 p{
+	margin: auto;
+}
+#usuario-arriba1 label{
+	margin-top: 4%;
+}
+#busc > div >a:after{
+	content: "0";
+	color: black;
+	font-size: 20px;
+	position: absolute;
+    left: 63%;
+    top: 10%;
+}
+.men{
+	width: 70%;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: green;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: red;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px red;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.sombra label,
+.sombra input{
+	width: 100%;
+	margin-bottom: .5rem;
+}
+.sombra label{
+	box-sizing: border-box;
+	border: 1px solid;
+}
+#event{
+	margin: 10% auto 5% auto;
+}
+#event_2{
+	margin-bottom: 5%;
+}
+#titulo{
+	background: #e6e0e0;
+	border-radius: 5px;
+}
+
+/* Turnos */
+#table-empleados{
+    margin: 5% auto;
+    width: 80%;
+    border: 2px solid;
+}
+
+#table-empleados thead {
+    background: gray;
+    border: 2px solid;
+}
+#table-empleados th, #table-empleados td {
+    border-left: 2px solid;
+}
+
+
+/* Card informacion usuario */
+
+
+.layout-spacing {
+  padding-bottom: 25px;
+  color: #888ea8;
+  height: 100%;
+  font-size: 0.875rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  letter-spacing: 0.0312rem;
+  font-family: 'Nunito', sans-serif;
+}
+.user-profile .widget-content-area {
+  border-radius: 6px;
+}
+.widget-content-area {
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+}
+.widget-content-area {
+  padding: 20px;
+  position: relative;
+  background-color: #0e1726;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.justify-content-between {
+  -ms-flex-pack: justify!important;
+  justify-content: space-between!important;
+}
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+.user-profile .widget-content-area .user-info {
+  margin-top: 40px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.user-profile .widget-content-area h3 {
+  position: relative;
+  font-size: 21px;
+  color: #bfc9d4;
+  margin: 6px 0px 0 0;
+}
+.user-profile .widget-content-area h3:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 55px;
+  background: #ffc0cb;/*#009688;*/
+  border-radius: 50%;
+  bottom: 9px;
+  left: 15px;
+}
+.user-profile .widget-content-area .edit-profile {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #1b55e2;
+  background: linear-gradient(to right, #ffc0cb 0%, #ffc0cb 100%);
+  /*background: linear-gradient(to right, #3cba92 0%, #0ba360 100%);*/
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+}
+.user-profile .widget-content-area .edit-profile svg {
+  font-size: 17px;
+  vertical-align: middle;
+  margin-right: 0;
+  color: #060818;
+  width: 19px;
+  align-self: center;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+.user-profile .widget-content-area .user-info img {
+  border-radius: 9px;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.user-profile .widget-content-area .user-info p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 22px;
+  color: #ffc0cb; /* #009688;*/
+}
+.user-profile .widget-content-area .user-info-list ul.contacts-block {
+  border: none;
+  max-width: 217px;
+  margin: 36px auto;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.user-profile .widget-content-area .user-info-list ul.contacts-block li {
+  margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.user-profile .widget-content-area .user-info-list ul.contacts-block svg {
+  width: 21px;
+  margin-right: 15px;
+  color: #888ea8;
+  vertical-align: middle;
+  fill: rgba(0, 23, 55, 0.08);
+}
+.user-profile .widget-content-area .user-info-list ul.contacts-block svg {
+  width: 21px;
+  margin-right: 15px;
+  color: #888ea8;
+  vertical-align: middle;
+  fill: rgba(0, 23, 55, 0.08);
+}
+.user-profile .widget-content-area .user-info-list ul.contacts-block ul.list-inline {
+  margin: 27px auto;
+}
+.user-profile .widget-content-area .user-info-list ul.contacts-block li a {
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffc0cb!important; /*#009688!important;*/
+}
+
+.user-profile .widget-content-area .user-info-list ul.contacts-block ul.list-inline div.social-icon {
+  border: 2px solid #3b3f5c;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.informacion-perfil-empleados{
+  padding-top: 10%;
+}
+
+/******************************/
